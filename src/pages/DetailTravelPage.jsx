@@ -25,7 +25,7 @@ const DetailTravelPage = () => {
     <div className='container'>
       <div className="row">
         <div className="col-12">
-          <h1 className='my-3 text-center tripdest'>Viaggio a:</h1>
+          <h1 className='text-center triptitle'>Viaggio a:</h1>
         </div>
         <div className="col-12">
           <div className="card travel-card my-3" key={travel.id}>
