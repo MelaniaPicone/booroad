@@ -1,0 +1,98 @@
+* {
+  color: rgba(0, 0, 0, 1);
+}
+
+header { position: fixed;
+  width: 100%;
+  height: 10%;
+  background-color: #98d5cd;
+  border-bottom: 2px solid black ;
+  padding: 5px 0px;
+ z-index: 1;
+}
+
+header a {
+  text-decoration: none;  
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-family:  "Playwrite AT", cursive;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+
+html,
+body {
+  background-image: url('../public/holidays.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.triptitle {
+margin: 110px auto 20px auto;}
+
+.partecipants {
+  margin: 0 auto;
+}
+
+.triptitle, .tripdest, .partecipants {
+  width: 220px;
+  padding: 5px 0px;
+  height: auto;
+font-family: 'Cambria' , sans-serif;
+font-size: 20px;
+background-color: #98d5cd;
+border: 1px solid black;
+border-radius: 10px;
+}
+
+
+.bg-marco {
+  background-color: #98d5cd;
+  border: 1px solid black;
+  font-family:  "Playwrite AT", cursive;
+letter-spacing: 1px;
+}
+
+.bg-sand {
+  border: 1px solid black;
+  font-family: 'Cambria', sans-serif;
+}
+
+.travel-card {
+  box-shadow: 10px 10px 10px 1px rgb(61, 60, 97);
+}
+
+.traveler-card {
+background-color: #98d5cd;  
+text-align: center;
+  width: 100%;
+border: 1px solid black;}
+
+.idlist {
+font-family: 'Cambria', sans-serif;
+line-height: 12px;
+}
+
+.namestyle {
+  padding: 2%;
+  font-family: 'Cambria', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.return-home {
+  position: sticky;
+  background-color: #98d5cd;
+  margin-bottom: 10px;
+ bottom: 10%;
+  left: 90%;
+  padding: 5px;
+  z-index: 2;
+  opacity: 1;
+  border-radius: 30%;
+  border: 1px solid black;
+}
